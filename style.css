@@ -10,15 +10,7 @@
     luego le damos un espacio desde la izquierda y desde arriba de un 50% 
     y con un transform que permite mover, rotar*, inclinar o modificar las dimensiones de un objeto 
     
-    Esta en dos dimensiones
-    
-    
-    2d y 3d
-    
-    en 2d: funciones como: 
-    Traslate() mueve el objeto en x y Y
-
-    3d:
+    Esta en dos dimensiones 2D y 3D
     https://www.youtube.com/watch?v=-dMy4Tw-Iqg
     */
     position: fixed;
