@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.blender{
+    /* Queremos posicionar la licuadora en el centro
+    Primero, le damos una posicion fija
+    luego le damos un espacio desde la izquierda y desde arriba de un 50% 
+    y con un transform que permite mover, rotar*, inclinar o modificar las dimensiones de un objeto 
+    
+    Esta en dos dimensiones
+    
+    
+    2d y 3d
+    
+    en 2d: funciones como: 
+    Traslate() mueve el objeto en x y Y
+
+    3d:
+    https://www.youtube.com/watch?v=-dMy4Tw-Iqg
+    */
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 500px;
+    /* background-color: red; */
+    background-image: url(assets/img/licuadoraApagada.png);
+    /* escalar el tamaño de la img al tamaño de la div */
+    background-size: contain;
+    background-position: center;
+    /* Para que  se repita */
+    background-repeat: no-repeat;
+}
+
+.blender.active{
+    background-image: url(assets/img/licuadoraEncendida.gif);
+
+}
+
+.blender-btn {
+    margin: 350px auto 0px;
+    width: 70px;
+    height: 70px;
+    /* background-color: blue; */
+}
